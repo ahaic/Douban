@@ -121,8 +121,10 @@ class DoubanImageParser(DoubanHtmlParser):
 
 
   
+album = input('enter douban ur \n')
+
 
 myparser = DoubanHtmlParser()
 
    
-db=DoubanImageParser('http://www.douban.com/online/10776262/album/45239925/')
+db=DoubanImageParser(album)
